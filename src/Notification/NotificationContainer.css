@@ -1,0 +1,11 @@
+.notificationContainer {
+  position: fixed;
+  bottom: 8px;
+  right: 0px;
+  width: 310px;
+  min-height: 1px;
+
+  .notificationToast:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}

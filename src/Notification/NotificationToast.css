@@ -1,0 +1,22 @@
+.ok {
+  --status-color: green;
+}
+
+.warning {
+  --status-color: orange;
+}
+
+.error {
+  --status-color: red;
+}
+
+.none {
+  --status-color: transparent;
+}
+
+.notificationToast {
+  padding: 8px;
+  border: 1px solid var(--status-color);
+  width: 300px;
+  box-sizing: border-box;
+}
